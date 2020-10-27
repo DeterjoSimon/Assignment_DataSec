@@ -8,9 +8,23 @@ public class ConnectionDB {
     static final String USER = "root";
     static final String PASS = "temisan";
 
-    public static void main(String[] args) {
+
+    public Connection connect(){
         Connection conn = null;
-        Statement stm = null;
+        try {
+            //Open a connection
+            Class.forName("org.mariadb.jdbc.Driver");
+            conn = DriverManager.getConnection(DB_URL, USER, PASS);
+            System.out.println("Connection to database established!");
+            return conn;
+        } catch (SQLException | ClassNotFoundException e){
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    /*public static void main(String[] args) {
+
         try {
 
             //Open a connection
@@ -20,7 +34,7 @@ public class ConnectionDB {
 
 
             //Execute query
-            Statement stmt = conn.createStatement();
+            /*Statement stmt = conn.createStatement();
 
             String sql = "SELECT * FROM employees";
 
@@ -36,11 +50,11 @@ public class ConnectionDB {
 
                 //Print results
                 System.out.format("%s, %s, %s\n", Name, ID, PASS);
-            }
-        } catch (ClassNotFoundException | SQLException e) {
+            }catch (ClassNotFoundException | SQLException e) {
             // Handle errors
             e.printStackTrace();
-        } finally {
+            }
+    } finally {
             // Finally block to close resources
             try {
                 if (stm != null){
@@ -58,5 +72,6 @@ public class ConnectionDB {
             }
             System.out.print("\n Bye bye!");
         }
-    }
+        */
 }
+
