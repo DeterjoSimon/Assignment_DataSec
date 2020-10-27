@@ -9,10 +9,14 @@ import java.security.spec.InvalidKeySpecException;
 
 public class Hasher {
 
-    private final int iterations = 10000;
-    private final int keyLength = 512;
+    private final int iterations;
+    private final int keyLength;
 
-    public static byte[] hashPassword(String name, String password){
+    public Hasher(){
+        this.iterations = 10000;
+        this.keyLength = 512;
+    }
+    public static String hashPassword(String name, String password){
 
         // Create hash class and salt
         Hasher h = new Hasher();
@@ -24,7 +28,8 @@ public class Hasher {
             SecretKeyFactory skf = SecretKeyFactory.getInstance("PBKDF2WithHmacSHA512");
             PBEKeySpec spec = new PBEKeySpec(passwordChars, saltBytes, h.iterations, h.keyLength);
             SecretKey key = skf.generateSecret(spec);
-            return key.getEncoded();
+
+            return String.valueOf(Hex.encodeHex(key.getEncoded()));
         } catch (NoSuchAlgorithmException | InvalidKeySpecException e) {
             throw new RuntimeException( e );
         }
@@ -33,8 +38,7 @@ public class Hasher {
     public static boolean checkPassword(String name, String password, String passwordDB){
 
         // Hash given password
-        byte[] hashedBytes = hashPassword(name, password);
-        String hashedString = String.valueOf(Hex.encodeHex(hashedBytes));
+        String hashedString = hashPassword(name, password);
 
         // Compare hashed password with stored password
         return (hashedString.equals(passwordDB));
