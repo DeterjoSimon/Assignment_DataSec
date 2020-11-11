@@ -7,5 +7,11 @@
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mariadb://127.0.0.1:3306/printers</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="printers@localhost" uuid="8710153c-5119-4bde-893e-bbde2ce29e13">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306/printers</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -16,12 +16,12 @@ public class Hasher {
         this.iterations = 10000;
         this.keyLength = 512;
     }
-    public static String hashPassword(String name, String password){
+    public static String hashPassword(String username, String password){
 
         // Create hash class and salt
         Hasher h = new Hasher();
         char[] passwordChars = password.toCharArray();
-        byte[] saltBytes = name.getBytes();
+        byte[] saltBytes = username.getBytes();
 
         // Password-hashing
         try {
@@ -35,12 +35,13 @@ public class Hasher {
         }
     }
 
-    public static boolean checkPassword(String name, String password, String passwordDB){
+    public static boolean checkPassword(String username, String password, String passwordDB){
 
         // Hash given password
-        String hashedString = hashPassword(name, password);
+        String hashedString = hashPassword(username, password);
 
         // Compare hashed password with stored password
         return (hashedString.equals(passwordDB));
     }
+
 }

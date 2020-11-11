@@ -2,11 +2,12 @@ import java.sql.*;
 
 public class ConnectionDB {
 
+    /*
     //Credentials to establish connection to DB
     static final String JDBC_DRIVER = "org.mariadb.jdbc.Driver";
-    static final String DB_URL = "jdbc:mariadb://127.0.0.1/printers";
-    static final String USER = "root";
-    static final String PASS = "temisan";
+    static final String DB_URL = "jdbc:mariadb://172.27.156.17:3306/printers";
+    static final String USER = "user";
+    static final String PASS = "security";
 
 
     public Connection connect(){
@@ -22,56 +23,58 @@ public class ConnectionDB {
             return null;
         }
     }
+    */
 
-    /*public static void main(String[] args) {
+    static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+    static final String DB_URL = "jdbc:mysql://localhost/";
+    //  Database credentials
+    static final String USER = "username";
+    static final String PASS = "password";
 
-        try {
+    public Connection connect(){
+        Connection conn = null;
+        Statement stmt = null;
+        try{
+            //STEP 2: Register JDBC driver
+            //Class.forName("com.mysql.cj.jdbc.Driver");
 
-            //Open a connection
-            Class.forName("org.mariadb.jdbc.Driver");
-            conn = DriverManager.getConnection(DB_URL, USER, PASS);
-            System.out.println("Connection to database established!");
+            //STEP 3: Open a connection
+            System.out.println("Connecting to database...");
+            conn = DriverManager.getConnection("jdbc:raima:rdm://local");
 
+            //STEP 4: Execute a query
+            System.out.println("Creating database...");
+            stmt = conn.createStatement();
 
-            //Execute query
-            /*Statement stmt = conn.createStatement();
-
-            String sql = "SELECT * FROM employees";
-
-            System.out.println("Employee database: \n");
-
-            ResultSet rs = stmt.executeQuery(sql);
-            while (rs.next()){
-
-                //Explicitly state keys
-                String Name = rs.getString("Name");
-                String ID = rs.getString("ID");
-                int pass = rs.getInt("PASS");
-
-                //Print results
-                System.out.format("%s, %s, %s\n", Name, ID, PASS);
-            }catch (ClassNotFoundException | SQLException e) {
-            // Handle errors
+            String sql = "CREATE DATABASE STUDENTS";
+            stmt.executeUpdate(sql);
+            System.out.println("Database created successfully...");
+            return conn;
+        }catch(SQLException se){
+            //Handle errors for JDBC
+            se.printStackTrace();
+            return null;
+        }catch(Exception e){
+            //Handle errors for Class.forName
             e.printStackTrace();
-            }
-    } finally {
-            // Finally block to close resources
-            try {
-                if (stm != null){
+            return null;
+        }finally{
+            //finally block used to close resources
+            try{
+                if(stmt!=null)
+                    stmt.close();
+                    return null;
+            }catch(SQLException se2){
+            }// nothing we can do
+            try{
+                if(conn!=null)
                     conn.close();
-                }
-            } catch (SQLException se) {
+                    return null;
+            }catch(SQLException se){
                 se.printStackTrace();
-            }
-            try {
-                if (conn != null){
-                    conn.close();
-                }
-            } catch (SQLException se) {
-                se.printStackTrace();
-            }
-            System.out.print("\n Bye bye!");
-        }
-        */
+                return null;
+            }//end finally try
+        }//end try
+    }
 }
 
