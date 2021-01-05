@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="697b0dd7-6d4f-465c-8953-5b15ee77c474" name="Default Changelist" comment="Replaced MySQL Database with an Excel database writer/reader." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Assignment2\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Simon\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7660.26\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <hideBySeverity>
+      <option value="15" />
+    </hideBySeverity>
+  </component>
+  <component name="ProjectId" id="1jO6Lc0GRPvjdcjJAIESTWm5dH4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603627348264" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.ApplicationServer">
+    <configuration name="ApplicationServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ApplicationServer" />
+      <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="engine.ComputeEngine" />
+      <module name="Assignment2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="engine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConnectionDB" />
+      <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hasher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hasher" />
+      <module name="Assignment2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.ApplicationServer" />
+        <item itemvalue="Application.Hasher" />
+        <item itemvalue="Application.ConnectionDB" />
+        <item itemvalue="Application.ComputeEngine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="697b0dd7-6d4f-465c-8953-5b15ee77c474" name="Default Changelist" comment="" />
+      <created>1603290887204</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603290887204</updated>
+      <workItem from="1603746918037" duration="4687000" />
+      <workItem from="1603792779459" duration="18286000" />
+      <workItem from="1603888075261" duration="7731000" />
+      <workItem from="1603982384888" duration="25000" />
+      <workItem from="1604058834189" duration="4730000" />
+      <workItem from="1604068598623" duration="940000" />
+      <workItem from="1604071204555" duration="1500000" />
+      <workItem from="1604419025449" duration="376000" />
+      <workItem from="1604493823540" duration="1133000" />
+      <workItem from="1604495882344" duration="4497000" />
+      <workItem from="1604586119715" duration="7000" />
+      <workItem from="1604673663667" duration="9808000" />
+      <workItem from="1604856260309" duration="4687000" />
+      <workItem from="1604907492815" duration="10574000" />
+      <workItem from="1605028734626" duration="8000" />
+      <workItem from="1605097509410" duration="1967000" />
+      <workItem from="1605099508583" duration="24000" />
+      <workItem from="1605099801595" duration="3740000" />
+      <workItem from="1605733788107" duration="648000" />
+      <workItem from="1605811604596" duration="462000" />
+      <workItem from="1605813623217" duration="1456000" />
+      <workItem from="1605866305830" duration="684000" />
+      <workItem from="1609873346021" duration="377000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added credential implementation on Client.java. DBConnection has been correctly implemented, need to modify it in order to make an instance of it and interact with it.">
+      <created>1603793860275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603793860276</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First 3 options for a menu in client.java implemented. Log-in final.">
+      <created>1603815437359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603815437359</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hash class created.">
+      <created>1603824574946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603824574946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Hasher function finally implemented and working. Can verify passwords and can hash them.&#10;&#10;An already connected user can register a new one. Hence, the database can now contain a varbinary.">
+      <created>1603828140700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603828140701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Replaced MySQL Database with an Excel database writer/reader.">
+      <created>1605099452367</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605099452367</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Data Security assignment:&#10;&#10;Hands-on experience with the development of a user authentication mechanism in Java by using the traditional security mechanisms for the Java Virtual Machine." />
+    <MESSAGE value="Added credential implementation on Client.java. DBConnection has been correctly implemented, need to modify it in order to make an instance of it and interact with it." />
+    <MESSAGE value="First 3 options for a menu in client.java implemented. Log-in final." />
+    <MESSAGE value="Hash class created." />
+    <MESSAGE value="Hasher function finally implemented and working. Can verify passwords and can hash them.&#10;&#10;An already connected user can register a new one. Hence, the database can now contain a varbinary." />
+    <MESSAGE value="Replaced MySQL Database with an Excel database writer/reader." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replaced MySQL Database with an Excel database writer/reader." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="-882" key="#Inspections" timestamp="1603664153492">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="586" y="-882" key="#Inspections/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603664153492" />
+    <state x="711" y="-736" key="#Notifications" timestamp="1603748155270">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="711" y="-736" key="#Notifications/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603748155270" />
+    <state x="242" y="0" key="#Project_Structure" timestamp="1604071469924">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="440" y="-986" key="#Project_Structure/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603663743154" />
+    <state x="242" y="0" key="#Project_Structure/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1604071469924" />
+    <state x="349" y="-719" key="#SQL_Dialects" timestamp="1603795997043">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="349" y="-719" key="#SQL_Dialects/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603795997043" />
+    <state x="191" y="0" key="#SSH_Configurations" timestamp="1604680609782">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="191" y="0" key="#SSH_Configurations/0.0.1280.680@0.0.1280.680" timestamp="1604680609782" />
+    <state x="207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604680613099">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="552" y="-902" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603748258202" />
+    <state x="921" y="-1080" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1604071391799" />
+    <state x="207" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1604680613099" />
+    <state x="510" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1603900264374">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="765" y="-844" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603664254969" />
+    <state x="510" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603900264374" />
+    <state x="779" y="-869" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1603747234670">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="779" y="-869" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603747234670" />
+    <state x="371" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1603823513476">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1603823513476" />
+    <state x="540" y="-845" key="DBNavigator.DatasetFilterDialog" timestamp="1603666095671">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="540" y="-845" key="DBNavigator.DatasetFilterDialog/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603666095671" />
+    <state x="490" y="-905" key="DBNavigator.ProjectSettingsDialog" timestamp="1603666358157">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="490" y="-905" key="DBNavigator.ProjectSettingsDialog/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603666358157" />
+    <state x="421" y="66" key="FileChooserDialogImpl" timestamp="1604858479524">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="66" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1604059818724" />
+    <state x="421" y="66" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1604858479524" />
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom" timestamp="1609873662232">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604070675456" />
+    <state width="1237" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1609873662232" />
+    <state width="1237" height="208" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605110857570" />
+    <state width="1237" height="187" key="GridCell.Tab.0.center" timestamp="1609873662231">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="247" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604070675456" />
+    <state width="1237" height="187" key="GridCell.Tab.0.center/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1609873662231" />
+    <state width="1237" height="208" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605110857569" />
+    <state width="1237" height="187" key="GridCell.Tab.0.left" timestamp="1609873662231">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="247" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604070675456" />
+    <state width="1237" height="187" key="GridCell.Tab.0.left/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1609873662231" />
+    <state width="1237" height="208" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605110857568" />
+    <state width="1237" height="187" key="GridCell.Tab.0.right" timestamp="1609873662232">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="247" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604070675456" />
+    <state width="1237" height="187" key="GridCell.Tab.0.right/0.0.1280.680/0.-1080.1920.1040@0.0.1280.680" timestamp="1609873662232" />
+    <state width="1237" height="208" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605110857569" />
+    <state width="1237" height="264" key="GridCell.Tab.1.bottom" timestamp="1603827913516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1237" height="264" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603827913516" />
+    <state width="1237" height="264" key="GridCell.Tab.1.center" timestamp="1603827913516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1237" height="264" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603827913516" />
+    <state width="1237" height="264" key="GridCell.Tab.1.left" timestamp="1603827913515">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1237" height="264" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603827913515" />
+    <state width="1237" height="264" key="GridCell.Tab.1.right" timestamp="1603827913516">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1237" height="264" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603827913516" />
+    <state width="1877" height="282" key="GridCell.Tab.2.bottom" timestamp="1603796911592">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.2.bottom/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911592" />
+    <state width="1877" height="282" key="GridCell.Tab.2.center" timestamp="1603796911591">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.2.center/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1877" height="282" key="GridCell.Tab.2.left" timestamp="1603796911591">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.2.left/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state width="1877" height="282" key="GridCell.Tab.2.right" timestamp="1603796911591">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.2.right/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603796911591" />
+    <state x="327" y="0" key="Maven.ArtifactSearchDialog" timestamp="1605100103430">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="490" y="-905" key="Maven.ArtifactSearchDialog/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603750530508" />
+    <state x="327" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1605100103430" />
+    <state x="242" y="0" key="SettingsEditor" timestamp="1604505490143">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="461" y="-915" key="SettingsEditor/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603747681261" />
+    <state x="242" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1604505490143" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605099456979">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605099456979" />
+    <state x="838" y="-673" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1603747191431">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="838" y="-673" width="316" height="244" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603747191431" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605100079174">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605100079174" />
+    <state x="194" y="52" width="893" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603827898186">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="194" y="52" width="893" height="628" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1603827898186" />
+    <state x="417" y="99" key="refactoring.ChangeSignatureDialog" timestamp="1603900266147">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="417" y="99" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1603900266147" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1603823492128">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1603823492128" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1603827199031">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1603827199031" />
+  </component>
+</project>
